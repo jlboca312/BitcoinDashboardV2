@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Bitcoin Dashboard</string>
+    <string name="action_settings">Settings</string>
+    <string name ="open">Open</string>
+    <string name="close">Close</string>
+    <string name="BlockNum">Block Number/Height: </string>
+    <string name="BlockFee">Block Fee: </string>
+    <string name="BlockSize">Block Size: </string>
+    <string name="BlockDiff">Block Difficulty: </string>
+    <string name="BlockInfo">Block Info: </string>
+    <string name="EnterBlockStuff">Enter Block Number/Height: </string>
+    <string name="LoadBlockButton">Load Block</string>
+    <string name="PrevBlockButton">Previous Block</string>
+    <string name="NextBlockButton">Next Block</string>
+    <string name="enterAddress">Enter Bitcoin Address: </string>
+    <string name="chooseAddress">Choose Address: </string>
+    <string name="or">OR</string>
+    <string name="ogLoad">Load</string>
+    <string name="load">LOAD from Spinner</string>
+    <string name="saveAddress">Save Address and Load</string>
+
+    <string-array name="titles">
+        <item>Price Per Bitcoin</item>
+        <item>Price Chart</item>
+        <item>Block Information</item>
+        <item>Address Current Balance</item>
+    </string-array>
+
+    <string-array name="timePeriods">
+        <item>1d</item>
+        <item>5d</item>
+        <item>1M</item>
+        <item>6M</item>
+        <item>1Y</item>
+        <item>2Y</item>
+    </string-array>
+</resources>

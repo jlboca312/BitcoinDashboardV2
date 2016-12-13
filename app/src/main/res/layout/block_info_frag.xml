@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <!-- DRAWS A LINE THAT SEPARATES THE LIST VIEW AND THE FRAGMENT -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:id="@+id/view"
+        android:layout_below="@+id/blockDifficulty"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous Block"
+        android:id="@+id/previousBlockButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="5sp"
+        android:layout_marginRight="10sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Block"
+        android:id="@+id/nextBlockButton"
+        android:layout_alignTop="@+id/previousBlockButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="65sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Block/Height Number:"
+        android:id="@+id/textView2"
+        android:textSize="22sp"
+        android:layout_below="@+id/view"
+        android:layout_alignEnd="@+id/nextBlockButton"
+        android:layout_marginTop="10sp" />
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/blockInput"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block Info:"
+        android:id="@+id/textView3"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BlockNum"
+        android:id="@+id/blockNumber"
+        android:textSize="20sp"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/previousBlockButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BlockFee"
+        android:id="@+id/blockFee"
+        android:layout_below="@+id/blockNumber"
+        android:layout_alignStart="@+id/blockNumber"
+        android:layout_marginTop="45dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BlockSize"
+        android:id="@+id/blockSize"
+        android:layout_below="@+id/blockFee"
+        android:layout_alignStart="@+id/blockFee"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BlockDiff"
+        android:id="@+id/blockDifficulty"
+        android:layout_below="@+id/blockSize"
+        android:layout_alignStart="@+id/blockSize"
+        android:layout_marginTop="47dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Block"
+        android:id="@+id/loadBlockButton"
+        android:layout_above="@+id/previousBlockButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10sp" />
+</RelativeLayout>

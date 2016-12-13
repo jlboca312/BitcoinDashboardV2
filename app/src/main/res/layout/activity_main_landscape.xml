@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:layout_width="300sp"
+        android:layout_height="match_parent"
+        android:id="@+id/landscapeContainerFrag"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/view"></FrameLayout>
+    <ListView
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <!-- DRAWS A LINE THAT SEPARATES THE LIST VIEW AND THE FRAGMENT -->
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/listView"
+        android:id="@+id/view" />
+
+</RelativeLayout>

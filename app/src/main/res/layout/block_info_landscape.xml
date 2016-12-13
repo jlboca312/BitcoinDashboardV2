@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BlockInfo"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textSize="25sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="5sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BlockNum"
+        android:id="@+id/blockNumber"
+        android:textSize="20sp"
+        android:layout_marginLeft="30sp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EnterBlockStuff"
+        android:id="@+id/textView5"
+        android:textSize="22sp"
+        android:layout_marginRight="10sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/blockInput"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BlockSize"
+        android:id="@+id/blockSize"
+        android:textSize="20sp"
+        android:layout_below="@+id/blockNumber"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LoadBlockButton"
+        android:id="@+id/loadBlockButton"
+        android:layout_below="@+id/blockInput"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PrevBlockButton"
+        android:id="@+id/previousBlockButton"
+        android:layout_below="@+id/loadBlockButton"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BlockFee"
+        android:id="@+id/blockFee"
+        android:textSize="20sp"
+        android:layout_below="@+id/blockSize"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BlockDiff"
+        android:id="@+id/blockDifficulty"
+        android:textSize="20sp"
+        android:layout_below="@+id/blockFee"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NextBlockButton"
+        android:id="@+id/nextBlockButton"
+        android:layout_below="@+id/loadBlockButton"
+        android:layout_toEndOf="@+id/previousBlockButton"
+        android:layout_marginLeft="10sp" />
+
+</RelativeLayout>

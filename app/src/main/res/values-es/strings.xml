@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bitcoin Dashboard</string>
+    <string name="action_settings">Ajustes</string>
+    <string name ="open">Abrir</string>
+    <string name="close">cerca</string>
+    <string name="BlockNum">Número de bloque: </string>
+    <string name="BlockFee">Tarifa de bloqueo: </string>
+    <string name="BlockSize">Tamaño de bloque: </string>
+    <string name="BlockDiff">Dificultad de bloqueo: </string>
+    <string name="BlockInfo">Bloquear información: </string>
+    <string name="EnterBlockStuff">Introduzca el número de bloque: </string>
+    <string name="LoadBlockButton">Bloque de carga</string>
+    <string name="PrevBlockButton">Bloque anterior</string>
+    <string name="NextBlockButton">Bloque siguiente</string>
+    <string name="enterAddress">ingresa la direccion: </string>
+    <string name="chooseAddress">Elegir dirección: </string>
+    <string name="o">OR</string>
+    <string name="ogLoad">carga</string>
+    <string name="load">Carga de spinner</string>
+    <string name="saveAddress">Guardar dirección y carga</string>
+
+    <string-array name="titles">
+        <item>Precio por bitcoin</item>
+        <item>Tabla de precios</item>
+        <item>Bloquear información</item>
+        <item>Dirección Saldo actual</item>
+    </string-array>
+
+    <string-array name="timePeriods">
+        <item>1d</item>
+        <item>5d</item>
+        <item>1M</item>
+        <item>6M</item>
+        <item>1Y</item>
+        <item>2Y</item>
+    </string-array>
+</resources>
